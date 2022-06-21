@@ -1,6 +1,7 @@
 <template>
 <!--  <Tutorial />-->
   <div>
+    <div>{{response}}</div>
     <img :src="response.details.ext_1.url" width="800">
     <div v-for="n in response.details.ext_4" :key="n.slag" >
       <img :src="n.ext_4.url" width="400">
